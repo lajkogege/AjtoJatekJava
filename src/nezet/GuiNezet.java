@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package nezet;
+import vezerlo.GuiVezerlo;
 
 /**
  *
@@ -10,13 +11,19 @@ package nezet;
  */
 public class GuiNezet extends javax.swing.JFrame {
 
+    private GuiVezerlo vezerlo;
+
     /**
      * Creates new form AjtokGUI
      */
     public GuiNezet() {
         initComponents();
     }
-
+       public void setVezerlo(GuiVezerlo vezerlo) {
+        this.vezerlo = vezerlo; 
+        
+    }
+       
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -173,6 +180,7 @@ public class GuiNezet extends javax.swing.JFrame {
 
     private void btnUjJatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUjJatekActionPerformed
     
+    
     }//GEN-LAST:event_btnUjJatekActionPerformed
 
     /**
@@ -231,4 +239,8 @@ public class GuiNezet extends javax.swing.JFrame {
     private javax.swing.JTextArea txtaJatek;
     private javax.swing.JTextArea txtaStatisztika1;
     // End of variables declaration//GEN-END:variables
+
+    public void setStatisztika(String statisztika) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

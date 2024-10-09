@@ -8,6 +8,8 @@ public class AjtoJatek {
         JatekModell modell = new JatekModell();
         GuiNezet nezet = new GuiNezet();
         
+    
+        
     }
  
 }
